@@ -57,13 +57,13 @@ Theme Styles
 
 body {
   box-sizing: border-box;
-  color:#373737;
-  background: #212121;
+  background: #e6e6e6;
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
+
 
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
@@ -123,6 +123,64 @@ a {
   -o-transition: text-shadow 0.5s ease;
   -ms-transition: color 0.5s ease;
   -ms-transition: text-shadow 0.5s ease;
+}
+
+#header_container {
+  position: absolute;
+  top: -1px;
+  width: 100%;
+  z-index: 10;
+  background: #073e53;
+}
+
+#header {
+  position: relative;
+  background: url(../images/home_hdr_bg.jpg) top center no-repeat;
+  margin: 0 auto;
+  padding: 0 20px; /* container padding */
+
+  width: 976px;
+  height: 400px;
+  clear: both;
+}
+
+#header ul {
+  position: absolute;
+  top: 60px;
+  width: 400px;
+
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+#header a {
+  color:  #aceacc;
+  text-transform: uppercase;
+}
+
+#header ul li { list-style: none; }
+#header ul.left { left: 42px; /* container padding */ }
+#header ul.left li { float: right }
+#header ul.right { left: 569px; /* container padding */ }
+#header ul.right li { float: left }
+
+#header #logo {
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 457px; /* container padding */
+  width: 100px;
+  height: 100px;
+  text-indent: -9999px;
+  background: transparent url(../images/logo.png) top center no-repeat;
+}
+
+#main {
+  background: white;
+  width: 1000px;
+  margin: 0 auto;
+  min-height: 700px;
 }
 
 #main_content a:hover {
@@ -375,57 +433,3 @@ Full-Width Styles
 }
 
 
-
-/*******************************************************************************
-Small Device Styles
-*******************************************************************************/
-
-@media screen and (max-width: 480px) {
-  body {
-    font-size:14px;
-  }
-
-  #downloads {
-    display: none;
-  }
-
-  .inner {
-    min-width: 320px;
-    max-width: 480px;
-  }
-
-  #project_title {
-  font-size: 32px;
-  }
-
-  h1 {
-    font-size: 28px;
-  }
-
-  h2 {
-    font-size: 24px;
-  }
-
-  h3 {
-    font-size: 21px;
-  }
-
-  h4 {
-    font-size: 18px;
-  }
-
-  h5 {
-    font-size: 14px;
-  }
-
-  h6 {
-    font-size: 12px;
-  }
-
-  code, pre {
-    min-width: 320px;
-    max-width: 480px;
-    font-size: 11px;
-  }
-
-}
