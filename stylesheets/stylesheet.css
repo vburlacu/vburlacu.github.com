@@ -130,7 +130,7 @@ a {
   top: -1px;
   width: 100%;
   z-index: 10;
-  background: #073e53;
+  background: #003956;
 }
 
 #header {
@@ -139,13 +139,25 @@ a {
   margin: 0 auto;
   padding: 0 20px; /* container padding */
 
-  width: 976px;
-  height: 400px;
+  width: 1400px;
+  height: 470px;
   clear: both;
 }
 
+#header #logo {
+  display: block;
+  position: relative;
+  top: 30px;
+  left: 283px; /* container padding */
+  width: 131px;
+  height: 131px;
+  text-indent: -9999px;
+  background: transparent url(../images/logo.png) top center no-repeat;
+  display: inline-block;
+}
+
 #header ul {
-  position: absolute;
+  position: relative;
   top: 60px;
   width: 400px;
 
@@ -154,27 +166,18 @@ a {
   padding: 0px;
   display: inline;
 }
+
+
 #header a {
   color:  #aceacc;
   text-transform: uppercase;
 }
 
-#header ul li { list-style: none; }
-#header ul.left { left: 42px; /* container padding */ }
-#header ul.left li { float: right }
-#header ul.right { left: 569px; /* container padding */ }
-#header ul.right li { float: left }
-
-#header #logo {
-  display: block;
-  position: absolute;
-  top: 30px;
-  left: 457px; /* container padding */
-  width: 100px;
-  height: 100px;
-  text-indent: -9999px;
-  background: transparent url(../images/logo.png) top center no-repeat;
-}
+#header ul li { list-style: none; font-size: 16px; }
+#header ul.left { top: 80px; left: 240px; /* container padding */ }
+#header ul.left li { display: inline-block; }
+#header ul.right { top: 80px; left: 310px; /* container padding */ }
+#header ul.right li { display: inline-block;  }
 
 #main {
   background: white;
