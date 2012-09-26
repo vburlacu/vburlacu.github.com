@@ -202,6 +202,25 @@ a {
   margin-top: 50px;
   margin-right: 130px;
   margin-bottom: -200px;
+
+  -webkit-transition-property: height, width, margin-top, -webkit-transform;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-property: height, width, margin-top, -moz-transform;
+  -moz-transition-duration: 0.2s;
+  -moz-transition-timing-function: ease-in-out;
+  transition-property: height, width, margin-top, transform;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+
+#hero img:hover {
+  -webkit-transform: rotate(7deg);
+  -moz-transform: rotate(7deg);
+  transform: rotate(7deg);
 }
 
 #main {
