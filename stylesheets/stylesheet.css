@@ -209,9 +209,9 @@ a {
   width: 500px;
   margin: 0 auto;
   margin-top: 500px;
-  height: 500px;
+  min-height: 500px;
   padding-top: 1px;
-  float: left;
+  position: relative;
 }
 
 #main h2 {
