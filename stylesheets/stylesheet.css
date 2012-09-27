@@ -207,18 +207,21 @@ a {
   background: white;
   width: 657px;
   margin: 0 auto;
-  margin-top: 700px;
+  margin-top: 550px;
   min-height: 500px;
-  padding-top: 1px;
+  padding-top: 38px;
+  padding-right: 38px;
+  padding-bottom: 38;
+  padding-left: 38;
   position: relative;
 }
 
 #main h2 {
-  width: 607px;
+  width: 582px;
   margin-left: 10px;
   margin-top: 50px;
-  margin-bottom:50px;
-  padding-left: 10px;
+  margin-bottom:10px;
+  padding-left: 30px;
   padding-top: 10px;
   line-height: 1.0em;
   color: #015e87;
