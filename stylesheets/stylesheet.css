@@ -217,12 +217,13 @@ a {
   width: 607px;
   margin-left: 10px;
   margin-top: 50px;
+  margin-bottom:50px;
   padding-left: 10px;
   padding-top: 10px;
   line-height: 1.0em;
   color: #015e87;
-  border-top: 2px dotted #015e87;
-  border-bottom: 2px dotted #015e87;
+  border-top: 2px dotted #b0bcc1;
+  border-bottom: 2px dotted #b0bcc1;
 }
 
 #main_content a:hover {
