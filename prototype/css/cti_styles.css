@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+/*Body*/
+body {	background: #e6e6e6 url(../images/bg.png) no-repeat top center;	margin:0px;	padding:0px; }
+#wrapper { width:1010px; height:auto; display:block; margin:0px auto; padding:0px; }
+h1 { font:normal 17px 'Cabin Condensed', sans-serif; color:#aceacc; text-align:center; text-decoration:none;}
+p { font:normal 14px/18px 'Cabin Condensed', sans-serif; color:#666666; text-align:left; text-decoration:none;}
+
+
+/*Main Navigation*/
+#main_nav { width:1010px; height:117px; display:block; float:left; margin:30px 0px; padding:0px; }
+#main_nav ul{ width:1010px; height:auto; display:block; float:left; margin:0px; padding:0px; }
+#main_nav ul li{ width:134px; height:auto; display:block; float:left; margin:0px 5px; padding:0px; font:normal 17px/130px 'Cabin Condensed', sans-serif; color:#aceacc; text-align:center; text-decoration:none; list-style:none;  }#main_nav ul li a{  font:normal 17px/130px 'Cabin Condensed', sans-serif; color:#aceacc; text-align:center; text-decoration:none;   }
+#main_nav ul li a:hover{  font:normal 17px/130px 'Cabin Condensed', sans-serif; color:#e6f5ee; text-align:center; text-decoration:none;   }
+
+/*Slider*/
+#slider { width:996px; height:auto; display:block; float:left; margin:0px; padding:0px;   }
+#sub-header{ width:996px; height:152px; display:block; float:left; margin:0px; padding:0px;  font:normal 45px/152px 'Cabin Condensed', sans-serif; color:#FFF; text-align:center; text-decoration:none; }
+
+
+
+/*Main Content*/
+#main-content{ width:620px; height:auto; display:block; float:left; margin:8px 0px; padding:28px; background:#FFF; }
+#main-content h1{ width:620px; height:36px; display:block; float:left; margin:8px 0px 0px 0px; padding:0px; font:normal 32px/36px 'Cabin Condensed', sans-serif; color:#005d8c; text-align:left; text-decoration:none; border-bottom:2px dotted #b0bcc1; border-top:2px dotted #b0bcc1;  }
+#content{ width:620px; height:auto; display:block; float:left; margin:10px 0px 10px 0px; padding:0px;  border-bottom:2px dotted #b0bcc1; }
+#content ul{ width:620px; height:auto; display:block; float:left; margin:10px 0p 0px 0px; padding:0px;  }
+#content ul li{ width:620px; height:auto; display:block; float:left; margin:8px 0px; padding:0px; list-style:none;  }
+#date { font:normal 13px 'Cabin Condensed', sans-serif; color:#b3b3b3; text-align:left; text-decoration:none; float:left; margin:0px; padding:0px; width:100%;  }
+#subheading { font:normal 15px 'Cabin Condensed', sans-serif; color:#599443; text-align:left; text-decoration:none; float:left; margin:3px 0px; padding:0px; width:100%;  }
+#subcontent { font:normal 14px/18px 'Cabin Condensed', sans-serif; color:#666666; text-align:left; text-decoration:none; }
+#subcontent span{ font:normal 14px/18px 'Cabin Condensed', sans-serif; color:#599443; text-align:left; text-decoration:none; }
+#subcontent span a{ font:normal 14px/18px 'Cabin Condensed', sans-serif; color:#599443; text-align:left; text-decoration:none; }
+#subcontent span a:hover{ font:normal 14px/18px 'Cabin Condensed', sans-serif; color:#666666; text-align:left; text-decoration:none; }
+#more_details { font:normal 14px/20px 'Cabin Condensed', sans-serif; color:#599443; text-align:right; text-decoration:none; width:100%; height:20px; display:block; margin: 0px; float:right;   }
+#more_details a{ font:normal 14px/20px 'Cabin Condensed', sans-serif; color:#599443; text-align:right; text-decoration:none;  }
+#more_details a:hover{ font:normal 14px/20px 'Cabin Condensed', sans-serif; color:#666666; text-align:right; text-decoration:none;  }
+
+/*Right Side Panel*/
+#right_side_panel { width:270px; height:auto; display:block; float:left; margin:0px 0px 0px 0px; padding:10px 15px 15px 15px; }
+#newsfeed { background:#FFF; width:270px; height:auto; display:block; float:left; margin:0px; padding:20px; }
+#newsfeed h1{ background:#FFF; width:270px; height:auto; display:block; float:left; margin:0px; padding:0px; font:normal 16px/30px 'Cabin Condensed', sans-serif; color:#005d8c; text-align:left; text-decoration:none; border-bottom:2px dotted #b0bcc1; }
+#news_content{ width:270px; height:auto; display:block; float:left; margin:0px 0px 10px 0px; padding:0px;  border-bottom:2px dotted #b0bcc1; }
+#news_content ul{ width:270px; height:auto; display:block; float:left; margin:0px 0p 0px 0px; padding:0px;  }
+#news_content ul li{ width:270px; height:auto; display:block; float:left; margin:5px 0px; padding:0px; list-style:none;  }
+#news_feed_date { font:normal 13px 'Cabin Condensed', sans-serif; color:#b3b3b3; text-align:left; text-decoration:none; float:left; margin:0px; padding:0px; width:100%;  }
+#news_feed_subheading { font:normal 15px 'Cabin Condensed', sans-serif; color:#599443; text-align:left; text-decoration:none; float:left; margin:3px 0px; padding:0px; width:100%;  }
+
+#latest_tweet { background:#FFF; width:270px; height:auto; display:block; float:left; margin:20px 0px 0px 0px; padding:20px; }
+#latest_tweet h1{ background:#FFF; width:270px; height:auto; display:block; float:left; margin:0px; padding:0px; font:normal 16px/30px 'Cabin Condensed', sans-serif; color:#005d8c; text-align:left; text-decoration:none; border-bottom:2px dotted #b0bcc1; }
+#latest_tweet_subconent { width:270px; height:auto; display:block; float:left; margin:10px 0px 10px 0px; padding:0px;  border-bottom:2px dotted #b0bcc1; }
+
+/*Second Main Content*/
+
+#content-second-panel{ width:945px; height:auto; display:block; float:left; margin:0px; padding:28px; background:#FFF; }
+#content-second{ width:100%; height:auto; display:block; float:left; margin:10px 0px 10px 0px; padding:20px 0px;  border-bottom:2px dotted #b0bcc1;  border-top:2px dotted #b0bcc1;}
+#section_one { width:478px; height:auto; display:block; float:left; margin:0px; padding:0px; }
+#section_one h1{ width:478px; height:36px; display:block; float:left; margin:8px 0px 25px 0px; padding:0px; font:normal 32px 'Cabin Condensed', sans-serif; color:#005d8c; text-align:left; text-decoration:none; }
+#section_one p{ width:478px; height:auto; display:block; float:left; margin:35px 0px 20px 0px; padding:0px; font:normal 18px 'Cabin Condensed', sans-serif; color:#666666; text-align:left; text-decoration:none; }
+#section_one p span{ font:normal 18px 'Cabin Condensed', sans-serif; color:#005d8c; text-align:left; text-decoration:none; }
+#learn_more { width:153px; height:30px; display:block; float:left; margin:15px 0px; padding:0px; background:#599443; border:1px solid #599443; border-radius:8px; font:normal 15px/30px 'Cabin Condensed', sans-serif; color:#FFF; text-align:center; text-decoration:none;  }
+#learn_more a{  font:normal 15px/30px 'Cabin Condensed', sans-serif; color:#FFF; text-align:center; text-decoration:none;  }
+#learn_more a:hover{  font:normal 15px/30px 'Cabin Condensed', sans-serif; color:#000; text-align:center; text-decoration:none;  }
+
+#sec_two_product { width:223px; height:auto; display:block; float:left; margin:0px 3px; padding:0px;  }
+#sec_two_product img { float:left; margin:0px 6px; padding:0px; }
+#sec_two_product h2{ width:100%; height:auto; display:block; float:left; margin:0px; padding:0px; font:normal 17px/30px 'Cabin Condensed', sans-serif; color:#599443; text-align:center; text-decoration:none;   }
+#sec_two_product p{ width:96%; height:auto; display:block; float:left; margin:0px; padding:0px; font:normal 14px 'Cabin Condensed', sans-serif; color:#666666; text-align:center; text-decoration:none;   }
+
+#sec_three_case { width:223px; height:auto; display:block; float:left; margin:0px 3px; padding:0px;  }
+#sec_three_case img { float:left; margin:0px 6px; padding:0px; }
+#sec_three_case h2{ width:100%; height:auto; display:block; float:left; margin:0px; padding:0px; font:normal 17px/30px 'Cabin Condensed', sans-serif; color:#599443; text-align:center; text-decoration:none;   }
+#sec_three_case p{ width:96%; height:auto; display:block; float:left; margin:0px; padding:0px; font:normal 14px 'Cabin Condensed', sans-serif; color:#666666; text-align:center; text-decoration:none;   }
+
+/*Footer*/
+
+#footer { width:945px; height:auto; display:block; float:left;  padding:28px; background:#c1d4c1; margin:14px 0px 0px 0px;  } 
+
+#foot_content{ width:945px; height:auto; display:block; float:left; margin:10px 0px 10px 0px; padding:0px;  border-bottom:2px dotted #FFF;  } 
+#website_directory { width:589px; height:176px; display:block; float:left; margin:0px; padding:0px; }
+#website_directory h1{ width:589px; height:30px; display:block; float:left; margin:0px; padding:0px; font:normal 18px 'Cabin Condensed', sans-serif; color:#FFF; text-align:left; text-decoration:none; border-bottom:2px dotted #FFF; }
+#website_directory_content {  width:589px; height:176px; display:block; float:left; margin:0px; padding:0px;  } 
+#website_directory_content img{ float:left; margin:14px 0px 0px 0px; padding:0px;  } 
+#foot_nav { width:105px; height:auto; display:block; float:left; margin:14px 0px 0px 50px; padding:0px; }
+#foot_nav ul{ width:105px; height:auto; display:block; float:left; margin:0px; padding:0px; }
+#foot_nav ul li{ width:105px; height:auto; display:block; float:left; margin:0px; padding:0px; font:normal 14px 'Cabin Condensed', sans-serif; color:#599443; text-align:left; text-decoration:none; list-style:none;  }
+#foot_nav ul li a{  font:normal 14px 'Cabin Condensed', sans-serif; color:#599443; text-align:left; text-decoration:none; list-style:none;  }
+#foot_nav ul li a:hover{  font:normal 14px 'Cabin Condensed', sans-serif; color:#666666; text-align:left; text-decoration:none; list-style:none;  }
+
+#search { width:258px; height:auto; display:block; float:left; margin:0px 0px 0px 50px; padding:0px;  }
+#search h3{ width:258px; height:auto; display:block; float:left; margin:10px 0px 10px 0px; padding:0px; font:normal 13px 'Cabin Condensed', sans-serif; color:#666666; text-align:left; text-decoration:none;  }
+#facebook { width:98px; height:auto; margin:0px 0px 0px 50px; padding:0px; float:left;  }
+#twitter { width:98px; height:auto; margin:0px 0px 0px 10px; padding:0px; float:left;  }
+
+#getin_touch { width:252px; height:auto; display:block; float:right; margin:0px; padding:0px; }
+#getin_touch h1{ width:252px; height:30px; display:block; float:left; margin:0px; padding:0px; font:normal 18px 'Cabin Condensed', sans-serif; color:#FFF; text-align:left; text-decoration:none; border-bottom:2px dotted #FFF; }
+#getin_touch h3{ width:252px; height:auto; display:block; float:left; margin:10px 0px; padding:0px; font:normal 14px 'Cabin Condensed', sans-serif; color:#666666; text-align:left; text-decoration:none;  }
+#getin_touch h3 span{  margin:0px 0px 0px 14px; padding:0px; font:normal 14px 'Cabin Condensed', sans-serif; color:#666666; text-align:left; text-decoration:none;  }
+a.email{ font:normal 14px/20px 'Cabin Condensed', sans-serif; color:#599443; text-align:right; text-decoration:none;  }
+a.email:hover{ font:normal 14px/20px 'Cabin Condensed', sans-serif; color:#666666; text-align:right; text-decoration:none;  }
+#copyright { float:right; margin:0px; padding:0px; font:normal 14px/20px 'Cabin Condensed', sans-serif; color:#FFF; text-align:right; text-decoration:none; }
+.searchform {    background: -moz-linear-gradient(center top , #FFFFFF, #EDEDED) repeat scroll 0 0 transparent;    border: 1px solid #D2D2D2;    border-radius: 2em 2em 2em 2em;    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    display: inline-block;    padding: 3px 5px;}
+.searchform .searchfield {    background: none repeat scroll 0 0 #FFFFFF;    border: 1px solid #FFF;    border-radius: 2em 2em 2em 2em;    outline: medium none;    padding: 6px 6px 6px 8px;    width: 195px;}
+.searchform .searchbutton {    background: url(../images/search.png) no-repeat;     border:none;    border-radius: 2em 2em 2em 2em;    color: #FFFFFF;    font-size: 11px;    height: 27px;    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);    width: 27px;}
+
+/*Inner Page*/
+
+#inner_sub{ width:620px; height:auto; display:block; float:left; margin:10px 0px 10px 0px; padding:0px; border-top:2px dotted #b0bcc1;  border-bottom:2px dotted #b0bcc1; }
+#inner_sub ul{ width:620px; height:auto; display:block; float:left; margin:10px 0p 0px 0px; padding:0px;  }
+#inner_sub ul li{ width:620px; height:auto; display:block; float:left; margin:8px 0px; padding:0px; list-style:none;  }
+#inner_subheading { font:normal 22px 'Cabin Condensed', sans-serif; color:#005d8c; text-align:left; text-decoration:none; float:left; margin:20px 0px 8px 0px; padding:0px; width:100%;  }
+#inner_subcontent { font:normal 14px/18px 'Cabin Condensed', sans-serif; color:#666666; text-align:left; text-decoration:none; }
